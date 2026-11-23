@@ -1,0 +1,19 @@
+import prisma from "@/lib/prisma";
+import { NextRequest, NextResponse } from "next/server";
+
+
+export async function POST(req : NextRequest){
+    
+    
+
+}
+
+export async function GET(req : NextRequest){
+
+    const student = {}
+
+    console.log("Get request received")
+
+    
+    
+}
